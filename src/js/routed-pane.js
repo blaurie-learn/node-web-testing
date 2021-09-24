@@ -23,10 +23,6 @@ class RoutedPane extends HTMLElement {
 		const all_wd_count = this.querySelectorAll('word-count');
 		all_wd_count.forEach(el => {
 
-			// if (!(window.location.pathname === '/webfolio-webui/dist/index.html')) {
-			// 	el.hidden = true;
-			// }
-
 			this.shadowRoot.appendChild(el);
 		});
 

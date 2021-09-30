@@ -13,7 +13,7 @@ class WordCount extends HTMLParagraphElement {
 	}
 
 	// connectedCallback() {
-		// this.innerText = 'Hi there';
+	// this.innerText = 'Hi there';
 	// }
 
 	// render() {
